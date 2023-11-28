@@ -40,11 +40,11 @@
               <div class="hidden sm:ml-6 sm:block">
                 <div class="flex space-x-4">
                   <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                  <a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">HTML</a>
-                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">CSS</a>
-                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Tailwind</a>
-                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Designs</a>
-                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Snippets</a>
+                  <a href="index.html" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">HTML</a>
+                  <a href="resources_css.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">CSS</a>
+                  <a href="resources_tailwind.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Tailwind</a>
+                  <a href="resources_designs.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Designs</a>
+                  <a href="resources_snippets.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Snippets</a>
                 </div>
               </div>
             </div>
@@ -92,18 +92,19 @@
         <div class="sm:hidden" id="mobile-menu">
           <div class="space-y-1 px-2 pb-3 pt-2">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+            <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">HTML</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">CSS</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Tailwind</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Designs</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Snippets</a>
           </div>
         </div>
       </nav>
       
       <main class="grid  grid-cols-1 md:grid-cols-12">
-        <div class="md:m-5  rounded-lg min-w-250 md:col-span-2 bg-slate-200 md:h-screen">
-            <h1 class=" p-5 md:text-xs lg:text-xl font-extrabold">Designs,<br>Resources<br>and<br>Snippets</h1>
-            <ul class="text-base p-5">
+        <div class="m-5  rounded-lg md:min-w-250 md:col-span-2 bg-slate-200 md:h-screen">
+            <h1 class="p-5 md:text-xs lg:text-xl font-extrabold">Designs,<br>Resources<br>and<br>Snippets</h1>
+            <ul class="invisible md:visible sm:h-auto text-base p-5">
               <a href="index.html"><li class="p-1 mr-3 rounded-md lg:bg-slate-300  font-semibold">HTML</li></a>
                 <a href="resources_css.html"><li class="p-1 hover:font-semibold">CSS</li></a>
                 <a href="resources_tailwind.html"><li class="p-1 hover:font-semibold">Tailwind</li></a>
@@ -111,13 +112,18 @@
                 <a href="resources_snippets.html"><li class="p-1 hover:font-semibold">Snippets</li></a>
             </ul>
         </div>
-        <div class="bg-slate-50 rounded-lg m-5 p-10 col-span-10" >
-<h2 class="font-semibold">Page Title</h2>
+        <div class="bg-slate-50 rounded-lg md:m-5 p-10 col-span-10" >
+<div class="bg-slate-100 rounded-lg p-5 m-0">
+
+
+<h2 class="font-semibold text-lg">The purpose of this page</h2>
 <br>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est, maxime adipisci explicabo, inventore sunt ex dolore laborum saepe modi praesentium, harum numquam libero aut maiores earum dicta quos aliquam. </p>
-<br>
-<h2 class="font-medium">Links</h2>  
-<div class="flex flex-wrap">
+<p class="">While learning the basics of coding, preparing to start the Code Academy course, I have regularly come across design ideas and snippets of code that look amazing, which I would love to use to inspire future designs.
+
+  Instead of cluttering my browser bookmarks and filling my desktop with notes (which I struggle to find at a later date), I have consolidated them all into one easy-to-reference structured page.</p>
+</div>
+<h2 class="font-medium p-5">Links to inspire</h2>  
+<div class="flex flex-wrap justify-evenly">
     <img class="shadow-lg m-5" src="images/html1.jpg">
     <img class="shadow-lg m-5" src="images/html1.jpg">
     <img class="shadow-lg m-5" src="images/html1.jpg">
@@ -158,7 +164,9 @@
             </div>
             
         </nav>
-        <div class="flex justify-center mt-8 space-x-6">
+
+        <!-- Bottom icons -->
+        <!-- <div class="flex justify-center mt-8 space-x-6">
             <a href="#" class="text-gray-400 hover:text-gray-500">
                 <span class="sr-only">Facebook</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
@@ -189,7 +197,7 @@
                     <path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd"></path>
                 </svg>
             </a>
-        </div>
+        </div> -->
         <p class="mt-8 text-base leading-6 text-center text-gray-400">
             © 2023 Andy Hinchliffe. All rights reserved.
         </p>
